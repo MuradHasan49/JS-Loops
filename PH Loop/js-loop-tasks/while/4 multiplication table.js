@@ -6,3 +6,13 @@ As Ersa is learning now, she wants to explore more and more. Tell Ersa to genera
 
 
 /*programming hero*/
+
+
+let num = 1;
+let tableinput = 5;
+
+while (num <= 10 ) {
+    let tableAns = num * tableinput
+    console.log(tableinput,"x",num,"=",tableAns)
+    num++
+}
