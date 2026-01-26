@@ -26,12 +26,12 @@ let oddSum = 0;
 while (oddNumber <= 131) {
     if (oddNumber % 2 == 1) {
         oddSum = oddSum + oddNumber
-        console.log("oddNumber sum is :", oddSum)
     }
-
+    
     oddNumber++
-
+    
 }
+console.log("oddNumber sum is :", oddSum)
 
 // subtask 2 ans:
 
@@ -41,8 +41,8 @@ let evenNumerSum = 0;
 while (evenNumer <= 311) {
     if (evenNumer % 2 == 0) {
         evenNumerSum = evenNumerSum + evenNumer;
-        console.log("The even sum numbers is :", evenNumerSum)
-
+        
     }
     evenNumer++
 }
+console.log("The even sum numbers is :", evenNumerSum)
