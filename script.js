@@ -1,35 +1,59 @@
-// // let arr = ["mengo","apple","grave","jackfoot"]
-// // let arr2 = [22,33,44,55,66,77,88,99,]
+// // // let arr = ["mengo","apple","grave","jackfoot"]
+// // // let arr2 = [22,33,44,55,66,77,88,99,]
 
 
-// // for(const newArray of arr){
-// //     console.log(newArray)
+// // // for(const newArray of arr){
+// // //     console.log(newArray)
+// // // }
+
+// // // for( const newArray2 of arr2){
+// // //     let a = newArray2 % 2
+// // //     console.log(a)
+// // // }
+
+// // let number = 1;
+
+// // while (number < 10) {
+// //     number++
+// //     console.log(number)
 // // }
 
-// // for( const newArray2 of arr2){
-// //     let a = newArray2 % 2
-// //     console.log(a)
-// // }
 
-// let number = 1;
+// // string and object 
 
-// while (number < 10) {
-//     number++
-//     console.log(number)
-// }
+// let name = 'bangladesh'
+//  name = name[2];
+// console.log(typeof name , name)
 
 
-// string and object 
+// let arry = [ 22, 44, 55, 66, 88 ];
 
-let name = 'bangladesh'
- name = name[2];
-console.log(typeof name , name)
+// console.log( arry[2])
+
+// arry [2] = 100;
+
+// console.log(arry)
 
 
-let arry = [ 22, 44, 55, 66, 88 ];
+// case in javascript 
 
-console.log( arry[2])
+let email = 'Muradhasanshuvo'
+let email2 = 'muradhasanshuvo'
 
-arry [2] = 100;
+if (email.toLowerCase === email2.toLowerCase) {
+    console.log("enter your password ")
+} else{
+    console.log("wrong email addres")
+}
 
-console.log(arry)
+// if white space
+
+
+let useremail = '  muradhasanshuvo'
+let useremail2 = '  muradhasanshuvo  '
+
+if (useremail.trim === useremail2.trim) {
+    console.log("enter your password ")
+} else{
+    console.log("wrong email addres")
+}
