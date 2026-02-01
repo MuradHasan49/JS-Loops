@@ -38,16 +38,28 @@
 
 // Task 4
 
-let allStudent = {
-    name: 'Ariana Grande',
-    age: 21,
-    city: 'Gaibandha',
+// let allStudent = {
+//     name: 'Ariana Grande',
+//     age: 21,
+//     city: 'Gaibandha',
+//     isStudent: true
+// };
+
+// let aLArr = Object.keys(allStudent)
+
+// console.log(aLArr.length)
+
+
+// Task 5
+
+let hardObj = {
+    name: 'John Doe',
+    age: 25,
+    city: 'Example City',
     isStudent: true
-};
+}
 
-let aLArr = Object.keys (allStudent)
-
-console.log(aLArr.length)
-
-
+for( let i in hardObj){
+    console.log("Keys :",i, "|", "Type :", typeof hardObj[i] )
+}
 
