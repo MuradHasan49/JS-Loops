@@ -23,5 +23,21 @@ console.log(car["passenger capacity"])
 
 // Task 3 
 
+const student = {
+    name: "Hamim Sakep",
+    id: 5421,
+    physics: {
+        subject: "HSC Physics",
+        author: "Shahjahan Tapan",
+        marks: 30
+    }
+};
+
+console.log(student["physics"].marks)
+
+
+// Task 4
+
+
 
 
