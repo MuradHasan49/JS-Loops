@@ -1,106 +1,118 @@
-// // // // // // let arr = ["mengo","apple","grave","jackfoot"]
-// // // // // // let arr2 = [22,33,44,55,66,77,88,99,]
+// // // // // // // let arr = ["mengo","apple","grave","jackfoot"]
+// // // // // // // let arr2 = [22,33,44,55,66,77,88,99,]
 
 
-// // // // // // for(const newArray of arr){
-// // // // // //     console.log(newArray)
+// // // // // // // for(const newArray of arr){
+// // // // // // //     console.log(newArray)
+// // // // // // // }
+
+// // // // // // // for( const newArray2 of arr2){
+// // // // // // //     let a = newArray2 % 2
+// // // // // // //     console.log(a)
+// // // // // // // }
+
+// // // // // // let number = 1;
+
+// // // // // // while (number < 10) {
+// // // // // //     number++
+// // // // // //     console.log(number)
 // // // // // // }
 
-// // // // // // for( const newArray2 of arr2){
-// // // // // //     let a = newArray2 % 2
-// // // // // //     console.log(a)
-// // // // // // }
 
-// // // // // let number = 1;
+// // // // // // string and object 
 
-// // // // // while (number < 10) {
-// // // // //     number++
-// // // // //     console.log(number)
-// // // // // }
+// // // // // let name = 'bangladesh'
+// // // // //  name = name[2];
+// // // // // console.log(typeof name , name)
 
 
-// // // // // string and object 
+// // // // // let arry = [ 22, 44, 55, 66, 88 ];
 
-// // // // let name = 'bangladesh'
-// // // //  name = name[2];
-// // // // console.log(typeof name , name)
+// // // // // console.log( arry[2])
 
+// // // // // arry [2] = 100;
 
-// // // // let arry = [ 22, 44, 55, 66, 88 ];
-
-// // // // console.log( arry[2])
-
-// // // // arry [2] = 100;
-
-// // // // console.log(arry)
+// // // // // console.log(arry)
 
 
-// // // // case in javascript 
+// // // // // case in javascript 
 
-// // // let email = 'Muradhasanshuvo'
-// // // let email2 = 'muradhasanshuvo'
+// // // // let email = 'Muradhasanshuvo'
+// // // // let email2 = 'muradhasanshuvo'
 
-// // // if (email.toLowerCase === email2.toLowerCase) {
-// // //     console.log("enter your password ")
-// // // } else{
-// // //     console.log("wrong email addres")
+// // // // if (email.toLowerCase === email2.toLowerCase) {
+// // // //     console.log("enter your password ")
+// // // // } else{
+// // // //     console.log("wrong email addres")
+// // // // }
+
+// // // // // if white space
+
+
+// // // // let useremail = '  muradhasanshuvo'
+// // // // let useremail2 = '  muradhasanshuvo  '
+
+// // // // if (useremail.trim === useremail2.trim) {
+// // // //     console.log("enter your password ")
+// // // // } else{
+// // // //     console.log("wrong email addres")
+// // // // }
+
+
+
+// // // let arry = [22, 45, 756, 40];
+// // // //  arry = arry.slice(0,3)
+// // //  arry = arry.splice(0,4)
+// // // console.log(arry)
+
+
+// // let strRevers = "I am Murad Hasan and i learn wev development."
+
+// // let newA = strRevers.split("")
+
+// // console.log(newA.reverse().join(""))
+// // // let storStr = "";
+// // // for(let newStr of strRevers){
+// // //     // console.log(newStr)
+// // //     storStr = newStr + storStr
 // // // }
+// // // console.log(storStr)
 
-// // // // if white space
+// // // let emtyStr ="";
 
+// // // for( let i = 0; i < strRevers.length; i++){
+// // //     // console.log(i)
+// // //     let a = strRevers[i]
+// // //     emtyStr = a + emtyStr
 
-// // // let useremail = '  muradhasanshuvo'
-// // // let useremail2 = '  muradhasanshuvo  '
-
-// // // if (useremail.trim === useremail2.trim) {
-// // //     console.log("enter your password ")
-// // // } else{
-// // //     console.log("wrong email addres")
 // // // }
+// // // console.log(emtyStr)
 
 
 
-// // let arry = [22, 45, 756, 40];
-// // //  arry = arry.slice(0,3)
-// //  arry = arry.splice(0,4)
-// // console.log(arry)
+// let obj = {
+//     name: "MHS",
+//     roll: 617705,
+//     dep: "CST",
+//     shift: "1st",
+//     sem: "8th",
+//     allCrear: true
+// }
 
+// let c = Object.keys(obj)
+// let d = Object.values(obj)
 
-// let strRevers = "I am Murad Hasan and i learn wev development."
+// for( let k of d){
+//     console.log(k)
 
-// let newA = strRevers.split("")
+// }
+// for( let j of c){
+//     console.log(j)
 
-// console.log(newA.reverse().join(""))
-// // let storStr = "";
-// // for(let newStr of strRevers){
-// //     // console.log(newStr)
-// //     storStr = newStr + storStr
+// }
+
+// // console.log(obj["roll"])
+
+// // for( let i in obj){
+// //     console.log(i, obj[i])
 // // }
-// // console.log(storStr)
-
-// // let emtyStr ="";
-
-// // for( let i = 0; i < strRevers.length; i++){
-// //     // console.log(i)
-// //     let a = strRevers[i]
-// //     emtyStr = a + emtyStr
-
-// // }
-// // console.log(emtyStr)
-
-
-
-let obj = {
-    name: "MHS",
-    roll: 617705,
-    dep: "CST",
-    shift: "1st",
-    sem: "8th",
-    allCrear: true
-}
-
-console.log(obj["roll"])
-
-for( let i in obj){
-    console.log(i, obj[i])
-}
