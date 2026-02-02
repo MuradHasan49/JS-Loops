@@ -49,3 +49,32 @@ if(vowelsStr.includes("a") || vowelsStr.includes("e") || vowelsStr.includes("i")
 }
 
 
+// Task 4 
+
+let repX = "xefer exem eye of man yes your are young starx "
+
+if(repX.includes("x")){
+    let a = repX.replaceAll("x", "X")
+    console.log(a)
+}else{
+    console.log("error!!!!")
+}
+
+if ( repX.includes("y")){
+    let b = repX.replaceAll("y","Y")
+    console.log(b)
+}else{
+    console.log("error!!!!")
+}
+
+
+
+// let rep2 = repX.replaceAll('y' , 'Y')
+// console.log(rep2)
+// for ( let n of repX ){
+//     // console.log(n)
+//     if(n.includes("x")){
+//          n = "X"
+//         console.log(n)
+//     }
+// }
