@@ -17,6 +17,6 @@ function evenAve(number) {
 }
 
 let output = evenAve(arry)
-console.log("Even Number Average is :", output.toFixed(1));
+console.log("Even Number Average is :", output.toFixed(2));
 
 
