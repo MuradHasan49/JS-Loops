@@ -11,7 +11,6 @@ function evenAve(number) {
             removeDuplicate.push(num)
         }
     }
-
     let result = evenSum / evenLength.length;
     return result
 
