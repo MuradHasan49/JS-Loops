@@ -81,4 +81,4 @@ for (let u = 0; u < word.length; u++) {
 }
 
 let result = word.join(" ")
-console.log(result)
+console.log("Full String Frist Word Letter is Capital: ",result)
