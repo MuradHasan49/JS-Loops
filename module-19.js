@@ -1,5 +1,6 @@
-let numArray = [1, 11, 3, 4, 5, 90, 7, 78, 89, 9, 7, 6, 33, 4]
+let numArry = [1, 11, 3, 4, 5, 90, 7, 78, 89, 9, 7, 6, 33, 400]
 
+// find max number of array 
 function maxnumber(number) {
     let store = number[0];
     for (let num of number) {
@@ -10,5 +11,5 @@ function maxnumber(number) {
     return store;
 }
 
-let output = maxnumber(numArray)
+let output = maxnumber(numArry)
 console.log(output)
