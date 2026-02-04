@@ -14,7 +14,7 @@ function maxnumber(number) {
 let output = maxnumber(numArry)
 console.log(output)
 
-
+// find min number of arry 
 function minnumber(number){
     let test = number[0]
     for(let i of number){
