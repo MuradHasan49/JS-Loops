@@ -13,3 +13,17 @@ function maxnumber(number) {
 
 let output = maxnumber(numArry)
 console.log(output)
+
+
+function minnumber(number){
+    let test = number[0]
+    for(let i of number){
+        if(i < test ){
+            test = i 
+        }
+    }
+    return test;
+}
+
+let result = minnumber(numArry);
+console.log(result)
