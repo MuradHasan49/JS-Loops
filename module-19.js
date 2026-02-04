@@ -1,4 +1,4 @@
-let numArry = [-111, 11, 3, 4, 5, 90, 7, 78, 89, 9, 7, 6, 33, 400]
+let numArry = [111, 11, 3, 4, 5, 90, 7, 78, 89, 9, 7, 6, 33, 400]
 
 // find max number of array 
 function maxnumber(number) {
@@ -12,7 +12,7 @@ function maxnumber(number) {
 }
 
 let output = maxnumber(numArry)
-console.log("Max Number of is :",output)
+console.log("Max Number is :",output)
 
 // find min number of arry 
 function minnumber(number){
@@ -26,4 +26,17 @@ function minnumber(number){
 }
 
 let result = minnumber(numArry);
-console.log(result)
+console.log("Min Number is :",result)
+
+
+function avenumber(number){
+    let add = 0;
+    for(let num of number){
+        add = add + num;
+    }
+    let result = add / number.length;
+    return result.toFixed(2);
+}
+
+let aveOutput = avenumber(numArry)
+console.log(aveOutput);
