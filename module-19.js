@@ -1,4 +1,4 @@
-let numArry = [1, 11, 3, 4, 5, 90, 7, 78, 89, 9, 7, 6, 33, 400]
+let numArry = [111, 11, 3, 4, 5, 90, 7, 78, 89, 9, 7, 6, 33, 400]
 
 // find max number of array 
 function maxnumber(number) {
