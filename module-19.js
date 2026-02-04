@@ -1,4 +1,4 @@
-let numArry = [111, 11, 3, 4, 5, 90, 7, 78, 89, 9, 7, 6, 33, 400]
+let numArry = [-111, 11, 3, 4, 5, 90, 7, 78, 89, 9, 7, 6, 33, 400]
 
 // find max number of array 
 function maxnumber(number) {
@@ -12,7 +12,7 @@ function maxnumber(number) {
 }
 
 let output = maxnumber(numArry)
-console.log(output)
+console.log("Max Number of is :",output)
 
 // find min number of arry 
 function minnumber(number){
