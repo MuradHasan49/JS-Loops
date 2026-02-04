@@ -28,7 +28,7 @@ function minnumber(number){
 let result = minnumber(numArry);
 console.log("Min Number is :",result)
 
-
+// find average number of arry 
 function avenumber(number){
     let add = 0;
     for(let num of number){
@@ -39,4 +39,4 @@ function avenumber(number){
 }
 
 let aveOutput = avenumber(numArry)
-console.log(aveOutput);
+console.log("Average Number is :",aveOutput);
