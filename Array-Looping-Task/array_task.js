@@ -50,3 +50,24 @@ let concatResult = concatArry(nameArray)
 console.log(concatResult)
 
 
+// Task 4 
+
+const statement = 'I am a hard working person'
+
+function revWord(input){
+    let a = input.split(" ")
+    let rand = []
+    for ( let word of a){
+        rand.push(word)
+    }
+    let finalResultis = [];
+    for( let i = rand.length - 1; i >= 0 ; i--){
+        finalResultis.push((rand[i]))
+    }
+    return finalResultis.join(" ")
+}
+
+let revWordResult = revWord(statement);
+console.log(revWordResult)
+
+
