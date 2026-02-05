@@ -158,4 +158,4 @@ const nA = [
 let newA = structuredClone(nA)
 newA[1][0] = 99;
 
-console.log("Orginal Array is :",nA,"New Array is :",newA)
+console.log("Orginal Array is :",nA,"\nUpdated New Array is :",newA)
