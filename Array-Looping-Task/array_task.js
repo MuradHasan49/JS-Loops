@@ -12,3 +12,22 @@ function revArray (input){
 
 let resultOfArray = revArray(colors)
 console.log(resultOfArray)
+
+
+// Task 2 
+
+const numbers = [12, 98, 5, 41, 23, 78, 46, 88];
+
+function evenNumber(input){
+    let newEvenAray = []
+    for(let n of input ){
+        if(n % 2 === 0){
+            newEvenAray.push(n)
+        }
+    }
+    return newEvenAray
+}
+
+
+let evenResult = evenNumber(numbers);
+console.log(evenResult);
