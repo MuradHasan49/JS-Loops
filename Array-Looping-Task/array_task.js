@@ -31,3 +31,22 @@ function evenNumber(input){
 
 let evenResult = evenNumber(numbers);
 console.log(evenResult);
+
+
+// Task 3
+
+var nameArray = ['Tom', 'Tim', 'Tin', 'Tik']
+
+function concatArry(input){
+    let conRe = " ";
+    for(let i of input){
+        conRe = conRe + i 
+    }
+    let a = conRe.split(" ");
+
+    return a.join(" ")
+}
+let concatResult = concatArry(nameArray)
+console.log(concatResult)
+
+
