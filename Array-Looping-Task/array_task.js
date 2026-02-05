@@ -55,14 +55,11 @@ console.log(concatResult)
 const statement = 'I am a hard working person'
 
 function revWord(input){
-    let a = input.split(" ")
-    let rand = []
-    for ( let word of a){
-        rand.push(word)
-    }
+    let word = input.split(" ")
+    
     let finalResultis = [];
-    for( let i = rand.length - 1; i >= 0 ; i--){
-        finalResultis.push((rand[i]))
+    for( let i = word.length - 1; i >= 0 ; i--){
+        finalResultis.push((word[i]))
     }
     return finalResultis.join(" ")
 }
@@ -70,4 +67,17 @@ function revWord(input){
 let revWordResult = revWord(statement);
 console.log(revWordResult)
 
+
+// Task 5
+
+// Input: [1, 2, 3]
+
+// Expected Output:
+
+// Original: [1, 2, 3] Copy: [99, 2, 3]
+
+const inArray = [1,2,3]
+let newArray22 = inArray.slice()
+ newArray22[0] = 99;
+console.log("Orginal Array is:",inArray , "New Array is:" ,newArray22)
 
