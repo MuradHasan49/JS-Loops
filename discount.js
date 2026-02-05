@@ -59,5 +59,5 @@ function layeredCal(inputNumber) {
 
 }
 
-let layeredResult = layeredCal(250)
-console.log("The Result is : ", layeredResult)
+let layeredResult = layeredCal(102)
+console.log("Discount Price is : ", layeredResult ,"Taka")
