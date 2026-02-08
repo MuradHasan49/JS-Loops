@@ -1,3 +1,5 @@
+
+
 let numberArray = [22,4,5,6,8,8,85,4,3,4,5,6,34,5]
 
 function make_avg(arr){
