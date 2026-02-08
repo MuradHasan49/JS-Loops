@@ -1,3 +1,4 @@
+
 function check(input) {
     if(input % 2 === 0){
         let result = input * 2;
