@@ -1,4 +1,5 @@
 
+
 let bin = "001283498052901958239"
 
 function count_zero(binary){
